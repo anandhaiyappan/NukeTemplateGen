@@ -1,5 +1,5 @@
 # NukeTemplateGen
-This App can be used to create a template script quickly for couple of shots.
+This App can be used to create a base nuke script quickly for shots using master shot's nuke script as a template.
 
 ## Screenshot
 
