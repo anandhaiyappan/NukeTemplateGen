@@ -3,7 +3,7 @@ This App can be used to create a template script quickly for couple of shots.
 
 ## Screenshot
 
-![NukeTemplateGen]
+![NukeTemplateGen](https://user-images.githubusercontent.com/51224384/192089551-b35285c2-6444-44b8-abdb-ddc602beb966.jpg)
 
 ## Installation
 
