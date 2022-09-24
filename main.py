@@ -29,8 +29,7 @@ class NukeTemplateGen(Ui_MainWindow, QMainWindow):
         super(NukeTemplateGen, self).__init__()
         self.setupUi(self)
         self.pb_loadnk.clicked.connect(self.load_nk)
-        self.pb_load_excel = self.findChild(QtWidgets.QPushButton, "pb_loadexcel")
-        self.pb_load_excel.clicked.connect(self.load_excel)
+        self.pb_loadexcel.clicked.connect(self.load_excel)
         self.pb_oppath.clicked.connect(self.load_op_path)
         self.pb_create.clicked.connect(self.script_creation)
         self.pb_clear.clicked.connect(self.ui_clear)
@@ -236,7 +235,7 @@ class NukeTemplateGen(Ui_MainWindow, QMainWindow):
             self.template_script_path = self.le_nkpath.text()
             self.shot_name = self.le_shotname.text()
             self.op_path = self.le_oppath.text()
-            if self.xl_path and self.start_frame and self.last_frame and self.template_script_path and self.shot_name\
+            if self.xl_path and self.start_frame and self.last_frame and self.template_script_path and self.shot_name \
                     and self.op_path:
                 if not os.path.isdir(self.op_path):
                     self.exception_handling("Error", "Invalid Path")
