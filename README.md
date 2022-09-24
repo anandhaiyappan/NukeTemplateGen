@@ -13,7 +13,7 @@ This App can be used to create a template script quickly for couple of shots.
 https://github.com/anandhaiyappan/NukeTemplateGen.git
 ```
 
-* run the `main.py` using python.exe
+* Navigate to the folder and run the `main.py` using python.exe
 
 
 ## How to use
